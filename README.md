@@ -55,28 +55,28 @@ The project is organized as a **tool hub** with two primary categories:
 ## Architecture
 
 ```
-+----------------------------------------------+
-|              Openroot NIOR (SPA)             |  <- React 19 + TypeScript + Vite
-|                                              |
-|  +------------------+  +-----------------+  |
-|  | Financial Engines|  |    Fun Zone     |  |
-|  |                  |  |                 |  |
-|  | +------------+   |  | +-----------+   |  |
-|  | | Midas      |   |  | | Loveria   |   |  |
-|  | | InvestIQ   |   |  | | Doze      |   |  |
-|  | | MoneyGrow  |   |  | +-----------+   |  |
-|  | | Debt Decoder   |  | +-----------+   |  |
-|  | +------------+   |  | | LoveTarot |   |  |
-|  +------------------+  | +-----------+   |  |
-|                         +-----------------+  |
-|                                              |
-|  +------------------------------------------+
-|  |         App.tsx — Category & Tool Router |
-|  +------------------------------------------+
-|  |     localStorage — Session Persistence   |
-|  +------------------------------------------+
-|  |    Firebase Hosting — Static Delivery    |
-+----------------------------------------------+
++------------------------------------------------+
+|              Openroot NIOR (SPA)               |  <- React 19 + TypeScript + Vite
+|                                                |
+|  +------------------+  +-----------------+     |
+|  | Financial Engines|  |    Fun Zone     |     |
+|  |                  |  |                 |     |
+|  | +------------+   |  | +-----------+   |     |
+|  | | Midas      |   |  | | Loveria   |   |     |
+|  | | InvestIQ   |   |  | | Doze      |   |     |
+|  | | MoneyGrow  |   |  | +-----------+   |     |
+|  | | Debt Decoder   |  | +-----------+   |     |
+|  | +------------+   |  | | LoveTarot |   |     |
+|  +------------------+  | +-----------+   |     |
+|                        +-----------------+     |
+|                                                |
+|  +------------------------------------------+  |
+|  |         App.tsx — Category & Tool Router |  |
+|  +------------------------------------------+  |
+|  |     localStorage — Session Persistence   |  |
+|  +------------------------------------------+  |
+|  |    Firebase Hosting — Static Delivery    |  |
++------------------------------------------------+
 ```
 
 ### Core Components
